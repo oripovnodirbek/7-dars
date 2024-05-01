@@ -102,14 +102,18 @@
 // console.log(result.arr);
 
 
-// function rotateArray(arr) {
-//     let temp = arr[0];
-//     for (let i = 0; i < arr.length - 1; i++) {
-//         arr[i] = arr[i + 1];
+// function massiv(arr) {
+//     const yangiArray = [];
+  
+//     for (let i = 1; i < arr.length; i++) {
+//       yangiArray.push(arr[i]);
 //     }
-//     arr[arr.length - 1] = temp;
-//     return arr;
-// }
-
-// let arr = [1, 5, 8, 9, 10];
-// console.log(rotateArray(arr)); 
+  
+//     yangiArray.push(arr[0]);
+  
+//     return yangiArray;
+//   }
+  
+//   const inputArray = [1, 5, 8, 9, 10];
+//   const outputArray = massiv(inputArray);
+//   console.log(outputArray);
